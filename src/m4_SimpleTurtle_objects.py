@@ -111,6 +111,18 @@ natasha.forward(50)
 natasha.speed = 1  # Now slower
 natasha.go_to(rg.Point(-100, 200))
 
+carl = rg.SimpleTurtle('turtle')
+carl.pen = rg.Pen('blue', 15)
+carl.backward(20)
+carl.left(90)
+carl.forward(20)
+carl.left(90)
+carl.forward(20)
+carl.left(90)
+carl.forward(20)
+
+
+
 ###############################################################################
 #
 # Done: 4.
@@ -127,7 +139,7 @@ natasha.go_to(rg.Point(-100, 200))
 
 ###############################################################################
 #
-# TODO: 5.
+# Done: 5.
 #   The above code  CONSTRUCTS  two SimpleTurtle objects
 #   and gives those objects NAMES:
 #       boris    natasha
